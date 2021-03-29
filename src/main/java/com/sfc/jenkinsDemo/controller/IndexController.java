@@ -11,6 +11,6 @@ public class IndexController {
 
     @RequestMapping("index")
     public String index(){
-        return "spring boot demo from jenkins!";
+        return "spring boot demo from jenkins,content changed by github.";
     }
 }
